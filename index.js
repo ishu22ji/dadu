@@ -8,5 +8,5 @@ const bot = mineflayer.createBot({
 
 bot.on('login',function(){
 	console.log("Logged In")
-	bot.chat("/register qwer qwer");
+	bot.chat("/login qwer");
 })
